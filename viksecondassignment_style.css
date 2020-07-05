@@ -1,0 +1,105 @@
+/** HEADER **/
+#header-nav {
+  background-color: green;
+  border-radius: 0;
+  border: 10px black;
+  padding: 10px;
+}
+
+
+.navbar-brand {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: black;
+  border: 1px white;
+  text-align: left;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p { /* Kosher cert */
+  color: white;
+  /* text-transform: uppercase; */
+  font-size: 1.7em;
+  margin-top: 0px;
+}
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#header_mainpage {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#center_text {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+/* #logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+} */
+
+
+.container, .container-fluid {
+  background-color: blue;
+  border: 1px black;
+  position: relative;
+}
+
+#container-fluid_mainpage {
+  height: 1000px;
+  width: 80%;
+}
+
+body {
+  font-size: 16px;
+  color: red;
+  background-color: purple;
+  /* background-color: #61122f; */
+  font-family: 'Oxygen', sans-serif;
+}
+
+.menu_name {
+  text-align: left;
+}
+
+.menu_dropdown {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top:1px;
+  margin-bottom:1px;
+  border-top: 1px black;
+  border-bottom: 1px black;
+  background-color: grey;
+  opacity:90%;
+}
+
+#button_position {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
